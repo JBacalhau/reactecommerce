@@ -30,7 +30,7 @@ export function AreaLogin() {
 
                     </div>
                 </div>
-                <Link className='text-xs border border-zinc-400 bg-white hover:bg-slate-200 rounded-lg px-[70px] py-2 my-5' href="/registar">Cria a sua conta do React e-Commerce</Link>
+                <Link className='text-xs border border-zinc-400 bg-white hover:bg-slate-200 rounded-lg px-[65px] py-2 my-5' href="/registar">Cria a sua conta do React e-Commerce</Link>
             </div>
             <RodapeLogin />
         </>
