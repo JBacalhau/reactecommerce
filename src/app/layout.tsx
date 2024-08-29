@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "React e-Commerce",
-  description: "Projeto foi desenvolvido em aula uzando as tecnologias: React; NextJS; TypeScript e o Taiwl  pro",
+  description: "Projeto foi desenvolvido em aula uzando as tecnologias: React; NextJS; TypeScript; tailwindcss",
   openGraph: {
 
-    images: ['https://reactecommerce-seven.vercel.app/src/app/imagemMeta.png'],
+    images: ['https://reactecommerce-seven.vercel.app/src/app/imagemMeta.jpg'],
     authors: ['João Bacalhau']
   }
 };
