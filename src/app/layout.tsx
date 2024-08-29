@@ -6,7 +6,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "React e-Commerce",
-  description: "e-Commerce de produtos",
+  description: "Projeto foi desenvolvido em aula uzando as tecnologias: React; NextJS; TypeScript e o Taiwl  pro",
+  openGraph: {
+
+    images: ['https://reactecommerce-seven.vercel.app/src/app/imagemMeta.png'],
+    authors: ['João Bacalhau']
+  }
 };
 
 export default function RootLayout({
@@ -17,8 +22,8 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
-      
+
     </html>
-    
+
   );
 }
